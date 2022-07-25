@@ -10,10 +10,10 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@antwika/common@0.0.18":
-  version "0.0.18"
-  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.18.tgz#ece6525d6fabf4b1dde9955ff905a926b232771f"
-  integrity sha512-dXD9KuX/ho1VfG4HWMWKqF0R+DuPJRpzOCyXYzP463Po9F8l0+nNCzooM9O5g6tUyrO7ygq1BnM+kjp9Tm2D6w==
+"@antwika/common@0.0.19":
+  version "0.0.19"
+  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.19.tgz#4488ff5c3b1898b4fa121dda8939e0b3d29470b5"
+  integrity sha512-TA3EL0v/OybkkoF5ypIJGTSZOAMfPZI09mu5JEhkKd7f2zux9i+fQ+A1UWEnb2hqfT4I5/6YrUITfj2d2l1YQg==
 
 "@antwika/standard-version@0.1.5":
   version "0.1.5"
@@ -5186,10 +5186,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
-typedoc@0.23.8:
-  version "0.23.8"
-  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.23.8.tgz#6837fb2732f73e7aa61b46a4fbe77a301473998d"
-  integrity sha512-NLRTY/7XSrhiowR3xnH/nlfTnHk+dkzhHWAMT8guoZ6RHCQZIu3pJREMCqzdkWVCC5+dr9We7TtNeprR3Qy6Ag==
+typedoc@0.23.9:
+  version "0.23.9"
+  resolved "https://registry.yarnpkg.com/typedoc/-/typedoc-0.23.9.tgz#fd94451abd039513ab4fda58208fa0e5631e080b"
+  integrity sha512-rvWci2KHwteVUufZjjtIy/4PIHiE66t4VW4Ob6pezV//GHZ9Px0CHE5iq032GZzKONJWnNb+EJsrQv32INRvxA==
   dependencies:
     lunr "^2.3.9"
     marked "^4.0.16"
