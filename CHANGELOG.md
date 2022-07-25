@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.6](https://github.com/antwika/lock/compare/v0.0.5...v0.0.6) (2022-07-25)
+
+
+### Bug Fixes
+
+* set protection of 'checkTicket' to 'protected' ([5e30656](https://github.com/antwika/lock/commit/5e30656b162eddc66fb4e3dfce272c86eeacf3b1))
+
 ## [0.0.5](https://github.com/antwika/lock/compare/v0.0.4...v0.0.5) (2022-07-25)
 
 
