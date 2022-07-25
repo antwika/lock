@@ -17,7 +17,7 @@ export type Ticket = {
  * When a ticket is returned, it invalidates the ticket and the locking is released.
  */
 export class TicketLock {
-  private readonly logger: ILogger;
+  protected readonly logger: ILogger;
 
   private readonly lock: Lock;
 
