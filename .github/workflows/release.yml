@@ -1,0 +1,13 @@
+name: Release
+on:
+  schedule:
+    - cron: "15 12 * * 2" #  Every Tuesday 12:15 UTC
+  workflow_dispatch:
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: antwika/actions/packages/release@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          npm-token: ${{ secrets.NPM_TOKEN }}
