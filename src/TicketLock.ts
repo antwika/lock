@@ -19,7 +19,7 @@ export type Ticket = {
 export class TicketLock {
   protected readonly logger: ILogger;
 
-  private readonly lock: Lock;
+  protected readonly lock: Lock;
 
   private readonly tickets: IStore;
 
