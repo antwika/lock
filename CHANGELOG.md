@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.5](https://github.com/antwika/lock/compare/v0.0.4...v0.0.5) (2022-07-25)
+
+
+### Bug Fixes
+
+* change lock protection level to 'protected' ([742ca72](https://github.com/antwika/lock/commit/742ca72d2b4cc0f381e6ea333d5a9763475b2db5))
+* change logger protection level to 'protected' ([bafb1d4](https://github.com/antwika/lock/commit/bafb1d4a907709fee6f0bea7cf2bb41977cdf7b2))
+* change tickets protection level to 'protected' ([fd94423](https://github.com/antwika/lock/commit/fd94423a64ef7e23652ad247571906e123371ba2))
+
 ## [0.0.4](https://github.com/antwika/lock/compare/v0.0.3...v0.0.4) (2022-07-25)
 
 
