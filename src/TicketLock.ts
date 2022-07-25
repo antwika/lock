@@ -21,7 +21,7 @@ export class TicketLock {
 
   protected readonly lock: Lock;
 
-  private readonly tickets: IStore;
+  protected readonly tickets: IStore;
 
   /**
    * A wrapper that enforces locking of a store. It returns a ticket once a lock has been
