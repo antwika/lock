@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.3](https://github.com/antwika/lock/compare/v0.0.2...v0.0.3) (2022-07-25)
+
+
+### Features
+
+* TicketLock ([ec2eef8](https://github.com/antwika/lock/commit/ec2eef8584f381af9ff8f6b5c72b5126187aed5f))
+* use @antwika/store ([a5ea95c](https://github.com/antwika/lock/commit/a5ea95ce32dedcf9ac42c932f397dc389779e909))
+
 ## 0.0.2 (2022-07-25)
 
 
