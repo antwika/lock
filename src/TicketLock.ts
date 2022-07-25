@@ -82,7 +82,7 @@ export class TicketLock {
    * @returns Returns a valid ticket.
    * @throws An error if the provided ticket is invalid.
    */
-  private async checkTicket(ticketTypes: TicketType[], ticketId: TicketId) {
+  protected async checkTicket(ticketTypes: TicketType[], ticketId: TicketId) {
     try {
       const ticket = await this.tickets.read<Ticket>(ticketId);
       if (!ticketTypes.includes(ticket.type)) throw new Error('Invalid ticket type');
