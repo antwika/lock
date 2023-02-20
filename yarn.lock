@@ -15,10 +15,10 @@
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.18.tgz#ece6525d6fabf4b1dde9955ff905a926b232771f"
   integrity sha512-dXD9KuX/ho1VfG4HWMWKqF0R+DuPJRpzOCyXYzP463Po9F8l0+nNCzooM9O5g6tUyrO7ygq1BnM+kjp9Tm2D6w==
 
-"@antwika/common@0.0.48":
-  version "0.0.48"
-  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.48.tgz#fe187d34b0ebad97222af39ac69fa9d1106e62b8"
-  integrity sha512-LJ4GtyHDoJ6KP5mbOFudncfHQxKQw1X95/HoKmKM9cFUBGXVO3E3IlzDRnhhJsDU7acnYSQ0Z8zJOTvxDVQH8w==
+"@antwika/common@0.0.49":
+  version "0.0.49"
+  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.49.tgz#d091268b4b356a3389dbd7b65f3f610202528a20"
+  integrity sha512-k/JkcY4om4cS34yAhEyRBV39/8buarpzBgqSUktK5wuO6oS7qLjd/0tPr07/m8/qw811u+nuf0vd+5PWtXbCqQ==
 
 "@antwika/standard-version@0.1.35":
   version "0.1.35"
