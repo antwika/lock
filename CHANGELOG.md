@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.40](https://github.com/antwika/lock/compare/v0.0.39...v0.0.40) (2023-03-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antwika/common to v0.0.52 ([f503856](https://github.com/antwika/lock/commit/f503856c1ba39ea52f53400ef5cd9b352f85009c))
+* **deps:** update dependency mongodb to v5.1.0 ([30d8035](https://github.com/antwika/lock/commit/30d8035f1e4bfb0bed034274e0c03a75591edfae))
+* **deps:** update dependency mongodb-memory-server to v8.12.0 ([fd8ddce](https://github.com/antwika/lock/commit/fd8ddceae3b2395efa60d206a8b386210339f530))
+* **deps:** update dependency mongodb-memory-server to v8.12.1 ([6ce217d](https://github.com/antwika/lock/commit/6ce217d8486b935a666b7f06c25db09afaa6d638))
+
 ## [0.0.39](https://github.com/antwika/lock/compare/v0.0.38...v0.0.39) (2023-03-12)
 
 
