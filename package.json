@@ -40,7 +40,7 @@
     "jest": "29.5.0",
     "ts-jest": "29.0.5",
     "typedoc": "0.23.28",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   },
   "dependencies": {
     "@antwika/common": "0.0.54",
