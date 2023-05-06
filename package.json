@@ -25,7 +25,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@antwika/standard-version": "0.1.45",
+    "@antwika/standard-version": "0.1.46",
     "@types/jest": "29.5.1",
     "@types/node": "18.16.5",
     "@typescript-eslint/eslint-plugin": "5.59.2",
