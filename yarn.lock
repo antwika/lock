@@ -2528,10 +2528,10 @@ compare-func@^2.0.0:
     array-ify "^1.0.0"
     dot-prop "^5.1.0"
 
-componentsjs-generator@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/componentsjs-generator/-/componentsjs-generator-3.1.0.tgz#8c855e131861c12b173bccabb5aa3305db417f34"
-  integrity sha512-vneXOzDGJweMttnwPdqZ3izIFFF7srEwmXRPcpXDnJgWQPF6dFR/kIpzDwjKln9ODf4Iq4Z+ddM/2NmPIMQC/w==
+componentsjs-generator@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/componentsjs-generator/-/componentsjs-generator-3.1.1.tgz#ca476e0eb8262c7a21d0608c96944f88fd9bb1d2"
+  integrity sha512-LrbZEGOm6Qh4qTesONrLYP3bCeemx4nUqp1EMLrBhlXsaLjBtvahOZHS1YFz+4OgabIUFbdtpqN1etXcCyMypw==
   dependencies:
     "@types/lru-cache" "^5.1.0"
     "@types/semver" "^7.3.4"
