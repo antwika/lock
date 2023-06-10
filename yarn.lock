@@ -20,20 +20,20 @@
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.64.tgz#be7d7055610000df65915f8f8709ae75a425a942"
   integrity sha512-0vlsgTSJNclV7jetn/Pgk54nGvo216f+aKgt4i++Uaz7eh6kOrQu6/N/CFXriCwKAMK6ydZmnV7WycAEMU2jww==
 
-"@antwika/standard-version@0.1.50":
-  version "0.1.50"
-  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.50.tgz#48c3ceb9510b521282344471c7b70f0110e56db8"
-  integrity sha512-cJc6j5qyvO7ZDPnnxAP2pT6C6U7+Hl+ux9DlEKSnAd9qnXqATmNBq8t2tfwJ3Mcu9j1YRd8RwWN1jXXSi3rh/A==
+"@antwika/standard-version@0.1.51":
+  version "0.1.51"
+  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.51.tgz#68f40d1efe0a8533c19654a3fcb4cc71dcdc8c30"
+  integrity sha512-VcWvwSqo2aBI/yOI4hQDJSapFr1hlJo6QI+N1ECGBgSAMd1FOjesEuvQrlrAMUTvyDqRSm0fuQLm3sPk0RhVRA==
   dependencies:
     conventional-changelog "3.1.25"
     conventional-changelog-config-spec "2.1.0"
-    conventional-changelog-conventionalcommits "5.0.0"
-    conventional-recommended-bump "6.1.0"
+    conventional-changelog-conventionalcommits "6.0.0"
+    conventional-recommended-bump "7.0.1"
     detect-indent "^6.0.0"
     detect-newline "^3.1.0"
     dotgitignore "^2.1.0"
     find-up "^5.0.0"
-    git-semver-tags "^4.0.0"
+    git-semver-tags "^5.0.0"
     semver "^7.1.1"
     yargs "^17.0.0"
 
@@ -2076,7 +2076,7 @@
     "@typescript-eslint/types" "5.59.9"
     eslint-visitor-keys "^3.3.0"
 
-JSONStream@^1.0.4:
+JSONStream@^1.0.4, JSONStream@^1.3.5:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
   integrity sha512-E+iruNOY8VV9s4JEbe1aNEm6MiszPRr/UfcHMz0TQh1BXSxHK+ASV1R6W4HpjBhSeS+54PIsAMCBmwD06LLsqQ==
@@ -2650,14 +2650,12 @@ conventional-changelog-config-spec@2.1.0:
   resolved "https://registry.yarnpkg.com/conventional-changelog-config-spec/-/conventional-changelog-config-spec-2.1.0.tgz#874a635287ef8b581fd8558532bf655d4fb59f2d"
   integrity sha512-IpVePh16EbbB02V+UA+HQnnPIohgXvJRxHcS5+Uwk4AT5LjzCZJm5sp/yqs5C6KZJ1jMsV4paEV13BN1pvDuxQ==
 
-conventional-changelog-conventionalcommits@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-5.0.0.tgz#41bdce54eb65a848a4a3ffdca93e92fa22b64a86"
-  integrity sha512-lCDbA+ZqVFQGUj7h9QBKoIpLhl8iihkO0nCTyRNzuXtcd7ubODpYB04IFy31JloiJgG0Uovu8ot8oxRzn7Nwtw==
+conventional-changelog-conventionalcommits@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-6.0.0.tgz#b0ab0c47aec45dbae17f7575df41a92bbb1ba7b0"
+  integrity sha512-pOQWvJ2se8UmGj3Vz5NzhljdgHvGow6ATZ7pM0TZqGekAfwgJkr3YQ9ZbooB4VIh35KS/cpfIgVrLoqLNvFNYg==
   dependencies:
     compare-func "^2.0.0"
-    lodash "^4.17.15"
-    q "^1.5.1"
 
 conventional-changelog-conventionalcommits@^4.5.0:
   version "4.6.3"
@@ -2729,6 +2727,11 @@ conventional-changelog-preset-loader@^2.3.4:
   resolved "https://registry.yarnpkg.com/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-2.3.4.tgz#14a855abbffd59027fd602581f1f34d9862ea44c"
   integrity sha512-GEKRWkrSAZeTq5+YjUZOYxdHq+ci4dNwHvpaBC3+ENalzFWuCWa9EZXSuZBpkr72sMdKB+1fyDV4takK1Lf58g==
 
+conventional-changelog-preset-loader@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-3.0.0.tgz#14975ef759d22515d6eabae6396c2ae721d4c105"
+  integrity sha512-qy9XbdSLmVnwnvzEisjxdDiLA4OmV3o8db+Zdg4WiFw14fP3B6XNz98X0swPPpkTd/pc1K7+adKgEDM1JCUMiA==
+
 conventional-changelog-writer@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/conventional-changelog-writer/-/conventional-changelog-writer-5.0.1.tgz#e0757072f045fe03d91da6343c843029e702f359"
@@ -2769,6 +2772,14 @@ conventional-commits-filter@^2.0.7:
     lodash.ismatch "^4.4.0"
     modify-values "^1.0.0"
 
+conventional-commits-filter@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-commits-filter/-/conventional-commits-filter-3.0.0.tgz#bf1113266151dd64c49cd269e3eb7d71d7015ee2"
+  integrity sha512-1ymej8b5LouPx9Ox0Dw/qAO2dVdfpRFq28e5Y0jJEU8ZrLdy0vOSkkIInwmxErFGhg6SALro60ZrwYFVTUDo4Q==
+  dependencies:
+    lodash.ismatch "^4.4.0"
+    modify-values "^1.0.1"
+
 conventional-commits-parser@^3.2.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-3.2.4.tgz#a7d3b77758a202a9b2293d2112a8d8052c740972"
@@ -2781,19 +2792,28 @@ conventional-commits-parser@^3.2.0:
     split2 "^3.0.0"
     through2 "^4.0.0"
 
-conventional-recommended-bump@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/conventional-recommended-bump/-/conventional-recommended-bump-6.1.0.tgz#cfa623285d1de554012f2ffde70d9c8a22231f55"
-  integrity sha512-uiApbSiNGM/kkdL9GTOLAqC4hbptObFo4wW2QRyHsKciGAfQuLU1ShZ1BIVI/+K2BE/W1AWYQMCXAsv4dyKPaw==
+conventional-commits-parser@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/conventional-commits-parser/-/conventional-commits-parser-4.0.0.tgz#02ae1178a381304839bce7cea9da5f1b549ae505"
+  integrity sha512-WRv5j1FsVM5FISJkoYMR6tPk07fkKT0UodruX4je86V4owk451yjXAKzKAPOs9l7y59E2viHUS9eQ+dfUA9NSg==
+  dependencies:
+    JSONStream "^1.3.5"
+    is-text-path "^1.0.1"
+    meow "^8.1.2"
+    split2 "^3.2.2"
+
+conventional-recommended-bump@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/conventional-recommended-bump/-/conventional-recommended-bump-7.0.1.tgz#ec01f6c7f5d0e2491c2d89488b0d757393392424"
+  integrity sha512-Ft79FF4SlOFvX4PkwFDRnaNiIVX7YbmqGU0RwccUaiGvgp3S0a8ipR2/Qxk31vclDNM+GSdJOVs2KrsUCjblVA==
   dependencies:
     concat-stream "^2.0.0"
-    conventional-changelog-preset-loader "^2.3.4"
-    conventional-commits-filter "^2.0.7"
-    conventional-commits-parser "^3.2.0"
-    git-raw-commits "^2.0.8"
-    git-semver-tags "^4.1.1"
-    meow "^8.0.0"
-    q "^1.5.1"
+    conventional-changelog-preset-loader "^3.0.0"
+    conventional-commits-filter "^3.0.0"
+    conventional-commits-parser "^4.0.0"
+    git-raw-commits "^3.0.0"
+    git-semver-tags "^5.0.0"
+    meow "^8.1.2"
 
 convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   version "1.8.0"
@@ -3634,6 +3654,15 @@ git-raw-commits@^2.0.8:
     split2 "^3.0.0"
     through2 "^4.0.0"
 
+git-raw-commits@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/git-raw-commits/-/git-raw-commits-3.0.0.tgz#5432f053a9744f67e8db03dbc48add81252cfdeb"
+  integrity sha512-b5OHmZ3vAgGrDn/X0kS+9qCfNKWe4K/jFnhwzVWWg0/k5eLa3060tZShrRg8Dja5kPc+YjS0Gc6y7cRr44Lpjw==
+  dependencies:
+    dargs "^7.0.0"
+    meow "^8.1.2"
+    split2 "^3.2.2"
+
 git-remote-origin-url@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/git-remote-origin-url/-/git-remote-origin-url-2.0.0.tgz#5282659dae2107145a11126112ad3216ec5fa65f"
@@ -3642,13 +3671,21 @@ git-remote-origin-url@^2.0.0:
     gitconfiglocal "^1.0.0"
     pify "^2.3.0"
 
-git-semver-tags@^4.0.0, git-semver-tags@^4.1.1:
+git-semver-tags@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/git-semver-tags/-/git-semver-tags-4.1.1.tgz#63191bcd809b0ec3e151ba4751c16c444e5b5780"
   integrity sha512-OWyMt5zBe7xFs8vglMmhM9lRQzCWL3WjHtxNNfJTMngGym7pC1kh8sP6jevfydJ6LP3ZvGxfb6ABYgPUM0mtsA==
   dependencies:
     meow "^8.0.0"
     semver "^6.0.0"
+
+git-semver-tags@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/git-semver-tags/-/git-semver-tags-5.0.0.tgz#775ff55effae0b50b755448408de6cd56ce293e2"
+  integrity sha512-fZ+tmZ1O5aXW/T5nLzZLbxWAHdQTLLXalOECMNAmhoEQSfqZjtaeMjpsXH4C5qVhrICTkVQeQFujB1lKzIHljA==
+  dependencies:
+    meow "^8.1.2"
+    semver "^6.3.0"
 
 gitconfiglocal@^1.0.0:
   version "1.0.0"
@@ -4909,7 +4946,7 @@ memory-pager@^1.0.2:
   resolved "https://registry.yarnpkg.com/memory-pager/-/memory-pager-1.5.0.tgz#d8751655d22d384682741c972f2c3d6dfa3e66b5"
   integrity sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==
 
-meow@^8.0.0:
+meow@^8.0.0, meow@^8.1.2:
   version "8.1.2"
   resolved "https://registry.yarnpkg.com/meow/-/meow-8.1.2.tgz#bcbe45bda0ee1729d350c03cffc8395a36c4e897"
   integrity sha512-r85E3NdZ+mpYk1C6RjPFEMSE+s1iZMuHtsHAqY0DT3jZczl0diWUZ8g6oU7h0M9cD2EL+PzaYghhCLzR0ZNn5Q==
@@ -4997,7 +5034,7 @@ minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
-modify-values@^1.0.0:
+modify-values@^1.0.0, modify-values@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
@@ -5982,7 +6019,7 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.11.tgz#50c0d8c40a14ec1bf449bae69a0ea4685a9d9f95"
   integrity sha512-Ctl2BrFiM0X3MANYgj3CkygxhRmr9mi6xhejbdO960nF6EDJApTYpn0BQnDKlnNBULKiCN1n3w9EBkHK8ZWg+g==
 
-split2@^3.0.0:
+split2@^3.0.0, split2@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/split2/-/split2-3.2.2.tgz#bf2cf2a37d838312c249c89206fd7a17dd12365f"
   integrity sha512-9NThjpgZnifTkJpzTZ7Eue85S49QwpNhZTq6GRJwObb6jnLFNGB7Qm73V5HewTROPyxD0C29xqmaI68bQtV+hg==
