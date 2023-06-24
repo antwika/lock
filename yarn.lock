@@ -20,14 +20,14 @@
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.66.tgz#b288e94fe0692e74048b3444e573f93e099c7900"
   integrity sha512-ks6VQUjFWds2xI+7MtBTPOPkGlLRRt7cx+/4rT7V/bpcg+QWd/lmaC+6exm4Qvu+hnVyJGNsgDm+YpTaueuTeQ==
 
-"@antwika/standard-version@0.1.52":
-  version "0.1.52"
-  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.52.tgz#b1ce290ea7db58ad225eb8e987bed106fb2d96de"
-  integrity sha512-y96ptHWOlHSd/mcXOFp1VbL9W0NNvLSKVw2Xp6L6crblqPSBuSnWDii14eGqjpTT4GlpKmGzaxr+el59YgVTxg==
+"@antwika/standard-version@0.1.53":
+  version "0.1.53"
+  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.53.tgz#b59649497dc8cb7aeaed16a587b421d3a2df4f76"
+  integrity sha512-EOg/+RY6vNdbXLNKZKovB3N2ioH6bNEdphzNM/Jr3VaRYk/CHHARmpfiowzPKlXLVfEga6lJo2IAmZw5YgiXFw==
   dependencies:
     conventional-changelog "3.1.25"
     conventional-changelog-config-spec "2.1.0"
-    conventional-changelog-conventionalcommits "6.0.0"
+    conventional-changelog-conventionalcommits "6.1.0"
     conventional-recommended-bump "7.0.1"
     detect-indent "^6.0.0"
     detect-newline "^3.1.0"
@@ -2650,10 +2650,10 @@ conventional-changelog-config-spec@2.1.0:
   resolved "https://registry.yarnpkg.com/conventional-changelog-config-spec/-/conventional-changelog-config-spec-2.1.0.tgz#874a635287ef8b581fd8558532bf655d4fb59f2d"
   integrity sha512-IpVePh16EbbB02V+UA+HQnnPIohgXvJRxHcS5+Uwk4AT5LjzCZJm5sp/yqs5C6KZJ1jMsV4paEV13BN1pvDuxQ==
 
-conventional-changelog-conventionalcommits@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-6.0.0.tgz#b0ab0c47aec45dbae17f7575df41a92bbb1ba7b0"
-  integrity sha512-pOQWvJ2se8UmGj3Vz5NzhljdgHvGow6ATZ7pM0TZqGekAfwgJkr3YQ9ZbooB4VIh35KS/cpfIgVrLoqLNvFNYg==
+conventional-changelog-conventionalcommits@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-6.1.0.tgz#3bad05f4eea64e423d3d90fc50c17d2c8cf17652"
+  integrity sha512-3cS3GEtR78zTfMzk0AizXKKIdN4OvSh7ibNz6/DPbhWWQu7LqE/8+/GqSodV+sywUR2gpJAdP/1JFf4XtN7Zpw==
   dependencies:
     compare-func "^2.0.0"
 
