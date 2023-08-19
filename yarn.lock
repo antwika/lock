@@ -25,10 +25,10 @@
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.74.tgz#0fadb6220f9a6d547d4c6f1c8b15c6e1e5e7a57d"
   integrity sha512-C8CyyDkjMQka4kPck8kzOuBYSDJxtuz1SAw0ulbAA9jusCGkmFp5hM9/CYW3kfTMVr+wYPEUdS7i5Z46VpwZ1A==
 
-"@antwika/standard-version@0.1.60":
-  version "0.1.60"
-  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.60.tgz#15ad542695396a15475c96fbbb44d0cd2098add8"
-  integrity sha512-3GO2gplXC+ZuvORXSzi0QBH5YSRS2oEFpoEfgn8rdDfnGHdASFcdhbNfrnhI2ZtOlQDFLn7/L2V8JkMQGiNsGw==
+"@antwika/standard-version@0.1.61":
+  version "0.1.61"
+  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.61.tgz#8625100038594c400e4873779cb8bf1537674960"
+  integrity sha512-CWdgx5D1HT3cLjLwgwOlOYAfK5xNIrg0Z56MISIL+lkmc9ThPOELF7ehzf4UdU90xy1iEHs9L/RaG9aQOb/iHQ==
   dependencies:
     conventional-changelog "4.0.0"
     conventional-changelog-config-spec "2.1.0"
