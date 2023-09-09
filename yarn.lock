@@ -25,14 +25,14 @@
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.77.tgz#44dcf150c467b162af3df16ef703a7e00d661360"
   integrity sha512-heh0C7PTEIp2+zKcnv+zyFmyWrCVKIch2vibgK40Io5a5Whns5Zn2F8jmvtEmPUgOPTRs5jw9pnY6i9Ib4ZZ6Q==
 
-"@antwika/standard-version@0.1.63":
-  version "0.1.63"
-  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.63.tgz#2d3e6cb258cdc882a748770b39a1f2a05af42210"
-  integrity sha512-l06q60J2KF+rlaldUpi7F3d54n8xoIukuHuL+/pmARRq0KkhRGh0TJJTuYVh6EjxzKidcCaA68007DdHsUIBww==
+"@antwika/standard-version@0.1.64":
+  version "0.1.64"
+  resolved "https://registry.yarnpkg.com/@antwika/standard-version/-/standard-version-0.1.64.tgz#0e3a8defddd146b1543b93dee49838bd75230723"
+  integrity sha512-xmGD5f1PwoJnsDPvMTlO8X9iQ6M7jMp6sLQX9FzyJpREYFRU+rv2ivFFkVG97EYLyUW2nRrKgJvtgx4czHUzjw==
   dependencies:
     conventional-changelog "4.0.0"
     conventional-changelog-config-spec "2.1.0"
-    conventional-changelog-conventionalcommits "7.0.1"
+    conventional-changelog-conventionalcommits "7.0.2"
     conventional-recommended-bump "7.0.1"
     detect-indent "^6.0.0"
     detect-newline "^3.1.0"
@@ -2714,10 +2714,10 @@ conventional-changelog-config-spec@2.1.0:
   resolved "https://registry.yarnpkg.com/conventional-changelog-config-spec/-/conventional-changelog-config-spec-2.1.0.tgz#874a635287ef8b581fd8558532bf655d4fb59f2d"
   integrity sha512-IpVePh16EbbB02V+UA+HQnnPIohgXvJRxHcS5+Uwk4AT5LjzCZJm5sp/yqs5C6KZJ1jMsV4paEV13BN1pvDuxQ==
 
-conventional-changelog-conventionalcommits@7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-7.0.1.tgz#b47e7d1b3a0c1e370c4c27eea741f06729913f5f"
-  integrity sha512-VfFJxBmi+LYXeb4pIfZGbuaFCpWZh0qXbUAKP/s6B8tigV6R4D8j5PDlTtMMWawa7+DcNySVoF7kPWz0EMYuCQ==
+conventional-changelog-conventionalcommits@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-7.0.2.tgz#aa5da0f1b2543094889e8cf7616ebe1a8f5c70d5"
+  integrity sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==
   dependencies:
     compare-func "^2.0.0"
 
