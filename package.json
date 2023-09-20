@@ -27,7 +27,7 @@
   "devDependencies": {
     "@antwika/standard-version": "0.1.65",
     "@types/jest": "29.5.5",
-    "@types/node": "18.17.17",
+    "@types/node": "18.17.18",
     "@typescript-eslint/eslint-plugin": "6.7.2",
     "@typescript-eslint/parser": "6.7.2",
     "componentsjs-generator": "3.1.2",
