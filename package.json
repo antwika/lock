@@ -46,7 +46,7 @@
     "@antwika/common": "0.0.81",
     "@antwika/store": "^0.4.0",
     "mongodb": "^6.0.0",
-    "mongodb-memory-server": "^8.6.0",
+    "mongodb-memory-server": "^9.0.0",
     "uuid": "^9.0.0"
   },
   "files": [
