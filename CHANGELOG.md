@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.73](https://github.com/antwika/lock/compare/v0.0.72...v0.0.73) (2023-11-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antwika/common to v0.0.85 ([0fced99](https://github.com/antwika/lock/commit/0fced99d7cb6aeea6c768f280843a2c25d79710b))
+
 ## [0.0.72](https://github.com/antwika/lock/compare/v0.0.71...v0.0.72) (2023-10-29)
 
 
