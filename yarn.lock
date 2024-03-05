@@ -1959,10 +1959,12 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.52.tgz#03c13be70b9031baaed79481c0c0cfb0045e53f7"
   integrity sha512-s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==
 
-"@types/node@^14.14.7":
-  version "14.18.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.18.tgz#5c9503030df484ccffcbb935ea9a9e1d6fad1a20"
-  integrity sha512-B9EoJFjhqcQ9OmQrNorItO+OwEOORNn3S31WuiHvZY/dm9ajkB7AKD/8toessEtHHNL+58jofbq7hMMY9v4yig==
+"@types/node@^18.0.0":
+  version "18.19.21"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.21.tgz#f4ca1ac8ffb05ee4b89163c2d6fac9a1a59ee149"
+  integrity sha512-2Q2NeB6BmiTFQi4DHBzncSoq/cJMLDdhPaAoJFnFCyD9a8VPZRf7a1GAwp1Edb7ROaZc5Jz/tnZyL6EsWMRaqw==
+  dependencies:
+    undici-types "~5.26.4"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -2095,7 +2097,7 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-7.1.1.tgz#ca33ba7cf58224fb46a84fea62593c2c53cd795f"
   integrity sha512-KhewzrlRMrgeKm1U9bh2z5aoL4s7K3tK5DwHDn8MHv0yQfWFz/0ZR6trrIHHa5CsF83j/GgHqzdbzCXJ3crx0Q==
 
-"@typescript-eslint/typescript-estree@5.26.0", "@typescript-eslint/typescript-estree@^5.11.0":
+"@typescript-eslint/typescript-estree@5.26.0":
   version "5.26.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-5.26.0.tgz#16cbceedb0011c2ed4f607255f3ee1e6e43b88c3"
   integrity sha512-EyGpw6eQDsfD6jIqmXP3rU5oHScZ51tL/cZgFbFBvWuCwrIptl+oueUZzSmLtxFuSOQ9vDcJIs+279gnJkfd1w==
@@ -2108,7 +2110,7 @@
     semver "^7.3.7"
     tsutils "^3.21.0"
 
-"@typescript-eslint/typescript-estree@7.1.1":
+"@typescript-eslint/typescript-estree@7.1.1", "@typescript-eslint/typescript-estree@^7.1.0":
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-7.1.1.tgz#09c54af0151a1b05d0875c0fc7fe2ec7a2476ece"
   integrity sha512-9ZOncVSfr+sMXVxxca2OJOPagRwT0u/UHikM2Rd6L/aB+kL/QAuTnsv6MeXtjzCJYb8PzrXarypSGIPx3Jemxw==
@@ -2724,35 +2726,35 @@ compare-func@^2.0.0:
     array-ify "^1.0.0"
     dot-prop "^5.1.0"
 
-componentsjs-generator@3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/componentsjs-generator/-/componentsjs-generator-3.1.2.tgz#c6a015d1ff06292120dc143c97006162c59103d5"
-  integrity sha512-0xYgpeH557mFNhwH0LornS5gNlQWrgvXACgvtLzMqDexA5HUY1YcDpTH4nRkfiAuF7Bw8bPDMFyru36lwsKhYA==
+componentsjs-generator@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/componentsjs-generator/-/componentsjs-generator-4.0.1.tgz#c0f6d872163aca287d1bf64c7295fdc2c5379f5b"
+  integrity sha512-Bu29ttAaKXIVz6T+YlpPysApWiImZNn6lkgPPLhwnDnRoWT+ptyEUZWLf5Z8gTs3rW/L1o50vfUdI6AIfohbLw==
   dependencies:
     "@types/lru-cache" "^5.1.0"
     "@types/semver" "^7.3.4"
-    "@typescript-eslint/typescript-estree" "^5.11.0"
+    "@typescript-eslint/typescript-estree" "^7.1.0"
     comment-parser "^0.7.6"
-    componentsjs "^5.0.1"
+    componentsjs "^6.0.0"
     jsonld-context-parser "^2.1.5"
     lru-cache "^6.0.0"
     minimist "^1.2.5"
     rdf-object "^1.13.1"
     semver "^7.3.2"
 
-componentsjs@^5.0.1:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/componentsjs/-/componentsjs-5.2.0.tgz#5a1cc0d501af450e20569d3cfd0dc6bc7bb8c319"
-  integrity sha512-ZOMwhYh5knlaYRfrPyhP2u4F62WNkswTbT48bw6V/f1u7vqXVc5dNcKSxMpyxdOBGVZbydq9XOuoK1KlHCDKGw==
+componentsjs@^6.0.0:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/componentsjs/-/componentsjs-6.0.1.tgz#f34cbd37195ec232dbcbad5426efab74d352a14d"
+  integrity sha512-8ylkwrS0WJCTkkp2dOamE4yLkkdFd9xZQQ8dGzaY22TdntLR9V/SH+dZ+GQ+im9/2KgrKtcEu0UHMY+cpE0LYw==
   dependencies:
     "@rdfjs/types" "*"
     "@types/minimist" "^1.2.0"
-    "@types/node" "^14.14.7"
+    "@types/node" "^18.0.0"
     "@types/semver" "^7.3.4"
     jsonld-context-parser "^2.1.1"
     minimist "^1.2.0"
     rdf-data-factory "^1.1.0"
-    rdf-object "^1.13.1"
+    rdf-object "^1.14.0"
     rdf-parse "^2.0.0"
     rdf-quad "^1.5.0"
     rdf-string "^1.6.0"
@@ -5854,6 +5856,17 @@ rdf-object@^1.13.1:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/rdf-object/-/rdf-object-1.13.1.tgz#e88a7ebe93397b0e9877e89b855681d523065b1f"
   integrity sha512-Sgq+GbsqdPsMYh+d4OZ4C9brXlzqa9MvfVHG4pkuT9p7o+AX39nqjTWE/8HVaXjjOZBIDe8T54WWTMWphu3BpA==
+  dependencies:
+    "@rdfjs/types" "*"
+    jsonld-context-parser "^2.0.2"
+    rdf-data-factory "^1.1.0"
+    rdf-string "^1.6.0"
+    streamify-array "^1.0.1"
+
+rdf-object@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/rdf-object/-/rdf-object-1.14.0.tgz#a51a2e575d4f838f88eced1e5096616769d17281"
+  integrity sha512-/KSUWr7onDtL7d81kOpcUzJ2vHYOYJc2KU9WzBZRYydBhK0Sksh5Hg4VCQNaxUEvYEgdrrTuq9SLpOOCmag0rQ==
   dependencies:
     "@rdfjs/types" "*"
     jsonld-context-parser "^2.0.2"
