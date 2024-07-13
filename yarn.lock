@@ -1940,14 +1940,7 @@
     "@types/node" "*"
     rdf-js "^4.0.2"
 
-"@types/node@*":
-  version "20.14.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.8.tgz#45c26a2a5de26c3534a9504530ddb3b27ce031ac"
-  integrity sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==
-  dependencies:
-    undici-types "~5.26.4"
-
-"@types/node@20.14.10":
+"@types/node@*", "@types/node@20.14.10":
   version "20.14.10"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.10.tgz#a1a218290f1b6428682e3af044785e5874db469a"
   integrity sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==
@@ -4137,9 +4130,9 @@ https-proxy-agent@^5.0.1:
     debug "4"
 
 https-proxy-agent@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.4.tgz#8e97b841a029ad8ddc8731f26595bad868cb4168"
-  integrity sha512-wlwpilI7YdjSkWaQ/7omYBMTliDcmCN8OLihO6I9B86g06lMyAoqgoDpV0XqoaPOKj+0DIdAvnsWfyAAhmimcg==
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-7.0.5.tgz#9e8b5013873299e11fab6fd548405da2d6c602b2"
+  integrity sha512-1e4Wqeblerz+tMKPIq2EMGiiWW1dIjZOksyHWSUm1rmuvw/how9hBHZ38lAGj5ID4Ik6EdkOw7NmWPy6LAwalw==
   dependencies:
     agent-base "^7.0.2"
     debug "4"
@@ -5402,10 +5395,10 @@ mongodb-memory-server-core@8.16.0:
     uuid "^9.0.0"
     yauzl "^2.10.0"
 
-mongodb-memory-server-core@9.4.0:
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/mongodb-memory-server-core/-/mongodb-memory-server-core-9.4.0.tgz#fa9f91872b66cfac82eca0b171b5823f87cb8e47"
-  integrity sha512-irqdj/RPHJ2M9lgtxrvhXUbqFv/DfmUG+wvcAqtgtBJ8qVq1VGBD5rkKkLP5b3g8OoadP3OzsXTGCi1P2dDBQQ==
+mongodb-memory-server-core@9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/mongodb-memory-server-core/-/mongodb-memory-server-core-9.4.1.tgz#1b1ded1edea748adde992eb0ad5dc4d9e1bc2ba2"
+  integrity sha512-lobapXaysH64zrn521NTkmqHc3krSPUFkuuZ8A/BmQV8ON7p2SzAEvpoJPDXIeJkxIzYw06dYL6Gn5OcZdEElA==
   dependencies:
     async-mutex "^0.4.1"
     camelcase "^6.3.0"
@@ -5429,11 +5422,11 @@ mongodb-memory-server@^8.6.0:
     tslib "^2.6.1"
 
 mongodb-memory-server@^9.0.0:
-  version "9.4.0"
-  resolved "https://registry.yarnpkg.com/mongodb-memory-server/-/mongodb-memory-server-9.4.0.tgz#4dbefe5356ebcc4ad0daee4c7e5179027ed20283"
-  integrity sha512-O6n7TxWvcLSSDP3IrXsLsdG0iouljlqdZ7sH3ZaqEyymzZglMroV3CwMj1lvMNks7fRVj8HMrza0gnwF3MyFGA==
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/mongodb-memory-server/-/mongodb-memory-server-9.4.1.tgz#83a35e10234128dbc70644df59a29c797c0b181f"
+  integrity sha512-qONlW4sKPbtk9pqFnlPn7R73G3Q4TuebJJ5pHfoiKTqVJquojQ8xWmkCyz+/YnpA2vYBo/jib+nXvjfKwh7cjg==
   dependencies:
-    mongodb-memory-server-core "9.4.0"
+    mongodb-memory-server-core "9.4.1"
     tslib "^2.6.3"
 
 mongodb@^4.16.0:
@@ -6705,9 +6698,9 @@ test-exclude@^6.0.0:
     minimatch "^3.0.4"
 
 text-decoder@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/text-decoder/-/text-decoder-1.1.0.tgz#3379e728fcf4d3893ec1aea35e8c2cac215ef190"
-  integrity sha512-TmLJNj6UgX8xcUZo4UDStGQtDiTzF7BzWlzn9g7UWrjkpHr5uJTK1ld16wZ3LXb2vb6jH8qU89dW5whuMdXYdw==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/text-decoder/-/text-decoder-1.1.1.tgz#5df9c224cebac4a7977720b9f083f9efa1aefde8"
+  integrity sha512-8zll7REEv4GDD3x4/0pW+ppIxSNs7H1J10IKFZsuOMscumCdM2a+toDGLPA3T+1+fLBql4zbt5z83GEQGGV5VA==
   dependencies:
     b4a "^1.6.4"
 
