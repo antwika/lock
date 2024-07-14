@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "@antwika/lock",
-  "version": "0.0.108",
+  "version": "0.0.109",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
