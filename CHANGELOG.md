@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.121](https://github.com/antwika/lock/compare/v0.0.120...v0.0.121) (2024-10-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency mongodb-memory-server to v10.1.0 ([ee9d6c6](https://github.com/antwika/lock/commit/ee9d6c6626658bdce2191f43be6e15440d737229))
+* **deps:** update dependency mongodb-memory-server to v10.1.1 ([01bb514](https://github.com/antwika/lock/commit/01bb5142d5404c3179cec316f16d8b8880900aba))
+* **deps:** update dependency mongodb-memory-server to v10.1.2 ([421ca98](https://github.com/antwika/lock/commit/421ca98f42373f1337e37a1db49fcf86880dead3))
+
 ## [0.0.120](https://github.com/antwika/lock/compare/v0.0.119...v0.0.120) (2024-10-06)
 
 ## [0.0.119](https://github.com/antwika/lock/compare/v0.0.118...v0.0.119) (2024-09-29)
