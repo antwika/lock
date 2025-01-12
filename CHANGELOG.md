@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.134](https://github.com/antwika/lock/compare/v0.0.133...v0.0.134) (2025-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency uuid to v11.0.4 ([#805](https://github.com/antwika/lock/issues/805)) ([3a442e6](https://github.com/antwika/lock/commit/3a442e6c03864c1affb8382d84b2a11b53cbb2ac))
+* **deps:** update dependency uuid to v11.0.5 ([#807](https://github.com/antwika/lock/issues/807)) ([0f3f382](https://github.com/antwika/lock/commit/0f3f382c640a068a787884be90bf8b2186dd9ae7))
+
 ## [0.0.133](https://github.com/antwika/lock/compare/v0.0.132...v0.0.133) (2025-01-05)
 
 
